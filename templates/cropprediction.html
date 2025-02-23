@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crop Prediction</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <h1>Crop Prediction</h1>
+    <form method="POST" action="/croppredictor">
+        <input type="text" name="Nitrogen" placeholder="Nitrogen" required><br>
+        <input type="text" name="Phosporus" placeholder="Phosphorus" required><br>
+        <input type="text" name="Potassium" placeholder="Potassium" required><br>
+        <input type="text" name="Ph" placeholder="pH" required><br>
+        <input type="text" name="soilColor" placeholder="Soil Color" required><br>
+        <input type="text" name="Rainfall" placeholder="Rainfall" required><br>
+        <input type="text" name="Temperature" placeholder="Temperature" required><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
